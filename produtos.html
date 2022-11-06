@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Contratação</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="reset.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" href="IMGS/icon.ico">
+  <!-- Latest compiled and minified CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <script src="script.js"></script>
+  <nav class="navbar navbar-expand-sm navbar-light test fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="IMGS/Logos_Prancheta-1.png" height="100px" width="100px" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="produtos.html">Produtos</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="https://grantoseguros.com/blog/">Blog</a>
+          </li>
+        </ul>
+        <button onclick="scrollToBottom()" id="bot">
+          Para o fim⏬
+        </button>
+        <button class="GrantoButton" href="form.html" type="button">Fale
+          Conosco</button>
+      </div>
+    </div>
+  </nav>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <div id="accordion">
+    <div class="card">
+      <div class="card-header " style="background-color: #333333; color: #FFFF;">
+        <a class="collapsed btn" style="color: #FFFF;" data-bs-toggle="collapse" href="#collapseOne">
+          Seguro Garantia
+        </a>
+        <a class="btn collapsed" style="color: #FFFF;" data-bs-toggle="collapse" href="#collapseTwo">
+          Vida em Grupo
+        </a>
+        <a class="btn collapsed" style="color: #FFFF;" data-bs-toggle="collapse" href="#collapseThree">
+          Risco de Engenharia
+        </a>
+        <a class="collapsed btn" style="color: #FFFF;" data-bs-toggle="collapse" href="#collapseFour">
+          Responsabilidade Civil
+        </a>
+      </div>
+      <div id="collapseOne" style="background-color: #E9EBEC;" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+          <div class=serv>
+            <img src="IMGS/1.png" width="100px" height="100px" />
+            <p id=titulo>O que é?</p>
+            <p style="margin: 15px;">Também conhecido no mercado como Performance Bond, busca soluções para as empresas
+              que precisam
+              garantir
+              a execução das obrigações previstas em contrato. O objetivo desta modalidade de seguro é cobrir o
+              prejuízos causados pela empresa ao órgão se aquele não executar o contrato conforme pactuado.</p>
+          </div>
+          <hr>
+          <div class=serv>
+            <img src="IMGS/2.png" width="100px" height="100px" />
+            <p id=titulo>Quem utiliza?</p>
+            <p style="margin: 15px;">O contratante e o beneficiário da apólice. Trata-se da pessoa jurídica ou física
+              que contrata, por exemplo, a execução da uma obra, a prestação de serviços ou até o fornecimento de
+              materiais.</p>
+          </div>
+          <hr>
+          <div class=serv>
+            <img src="IMGS/3.png" width="100px" height="100px" />
+            <p id=titulo>Quando e onde pode ser utilizado?</p>
+            <p style="margin: 15px;">Quando necessitar garantir que se cumpram obrigações estipuladas em contratos,
+              dando proteção contra o não cumprimento de cláusulas relacionadas ao serviços, fornecimento de recursos e
+              outras situações.</p>
+          </div>
+        </div>
+      </div>
+      <div id="collapseTwo" style="background-color: #E9EBEC;" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+          <div class=serv>
+            <img src="IMGS/1.png" width="100px" height="100px" />
+            <p id=titulo>O que é?</p>
+            <p style="margin: 15px;">Produto financeiro contratado por uma empresa, a fim de cobrir os riscos de um
+              grupo assegurado.</p>
+          </div>
+          <hr>
+          <div class=serv>
+            <img src="IMGS/2.png" width="100px" height="100px" />
+            <p id=titulo>Quem utiliza?</p>
+            <p style="margin: 15px;">Contratado por empresas e outros tipos de organizações para cobrir riscos de um
+              determinado grupo de pessoas.</p>
+          </div>
+          <hr>
+          <div class=serv>
+            <img src="IMGS/3.png" width="100px" height="100px" />
+            <p id=titulo>Quando e onde pode ser utilizado?</p>
+            <p style="margin: 15px;">Na ocasião de um sinistro, os beneficários são funcionários ou dependentes cobertos
+              na apólice.</p>
+          </div>
+        </div>
+      </div>
+      <div id="collapseThree" style="background-color: #E9EBEC;" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+          <div class=serv>
+            <img src="IMGS/1.png" width="100px" height="100px" />
+            <p id=titulo>O que é?</p>
+            <p style="margin: 15px;">O seguro de riscos de engenharia possui uma cobertura “all risks”, que cobre todos
+              os tipos de danos físicos que possam atingir a obra e acabar comprometendo o seu andamento. Também existe
+              cobertura sobre eventuais danos causados a terceiros durante a fase de execução da obra.</p>
+          </div>
+          <hr>
+          <div class=serv>
+            <img src="IMGS/2.png" width="100px" height="100px" />
+            <p id=titulo>Quem utiliza?</p>
+            <p style="margin: 15px;">Pode ser contratado por construtoras, empreiteiras, incorporadoras e proprietários
+              de imóveis. É voltado tanto para obras de reforma como de construção.</p>
+          </div>
+          <hr>
+          <div class=serv>
+            <img src="IMGS/3.png" width="100px" height="100px" />
+            <p id=titulo>Quando e onde pode ser utilizado?</p>
+            <p style="margin: 15px;">Quando necessário o ressarcimento em casos de avarias ou inutilização de
+              equipamentos móveis e estacionários.</p>
+          </div>
+          <hr>
+        </div>
+      </div>
+      <div id="collapseFour" style="background-color: #E9EBEC;" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+          <div class=serv>
+            <img src="IMGS/1.png" width="100px" height="100px" />
+            <p id=titulo>O que é?</p>
+            <p style="margin: 15px;">O seguro de responsabilidade civil protege conta os riscos inerentes à relação
+              empresa e profissional.</p>
+          </div>
+          <hr>
+          <div class=serv>
+            <img src="IMGS/2.png" width="100px" height="100px" />
+            <p id=titulo>Quem utiliza?</p>
+            <p style="margin: 15px;">A proteção do Seguro de Responsabilidade Civil pode ser contratada por qualquer
+              empresa, seja ela do ramo comercial, industrial, serviços e financeiro.</p>
+          </div>
+          <hr>
+          <div class=serv>
+            <img src="IMGS/3.png" width="100px" height="100px" />
+            <p id=titulo>Quando e onde pode ser utilizado?</p>
+            <p style="margin: 15px;">O seguro de responsabilidade civil pode ser utilizado por colaboradores e sócios,
+              além de proteger contra danos corporais e materiais.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br>
+  <br>
+  <br>
+
+  <h3 style="text-align: center;">CONTRATAÇÃO</h3>
+  <b>
+    <p style="text-align: center;">LOGADO!</p>
+  </b>
+  <br>
+  <p style="text-align: center;">Consulte suas contratações aqui:</p>
+  <br>
+  <div id="formu" class="col-sm-4">
+    <a href="cotratacoes.html" class="btn btn-success">Minhas Contratações</a>
+    <br>
+  </div>
+  <br><br>
+  <p style="text-align: center;">Requisite contratos através deste formulário:</p>
+  <br>
+  <div id="formu" class="col-sm-4">
+
+    <label>Nome:</label><br>
+    <input type="text"><br>
+    <label>Email:</label><br>
+    <input type="text"><br>
+    <label>Telefone:</label><br>
+    <input type="text"><br>
+    <label>Cidade:</label><br>
+    <input type="text">
+    <br><br><br>
+    <div style="text-align: left; margin-left: 40px;"">
+    Por favor, insira informações do contrato:<br> <br>
+  <input name=" pessoa" type="radio">
+      <label>Vendedor</label><br>
+      <input name="pessoa" type="radio">
+      <label>Comprador</label><br>
+      <input name="pessoa" type="radio">
+      <label>Produtor</label><br>
+    </div>
+    <br><br>
+    <div style="text-align: left; margin-left: 40px;">
+      Digite o seu alcance:<br><br>
+      <input name="alcance" type="radio">
+      <label>Municipal</label><br>
+      <input name="alcance" type="radio">
+      <label>Estadual</label><br>
+      <input name="alcance" type="radio">
+      <label>Nacional</label><br>
+      <input name="alcance" type="radio">
+      <label>Internacional</label><br>
+    </div>
+    <br>
+    <div style="text-align: center; margin-left: 0px;"">
+  <label>Qual a área do contrato?</label><br>
+  <input type=" text" placeholder="Ex.: Avecultura, café, pesca"><br> <br>
+      <label>Qual tamanho do contrato?</label><br>
+      <input type="text" placeholder="Ex.:Entre R$2000,00 e R$4000,00"><br> <br>
+      <label for="comment">Descreva a situação:</label>
+      <textarea class="form-control" rows="3" id="comment" name="text"></textarea>
+    </div><br>
+    
+    <br>
+    <div style="text-align: left; margin-left: 40px;">
+      <input name="contrato" type="radio">
+      <label>Seguro Garantia</label><br>
+      <input name="contrato" type="radio">
+      <label>Vida em Grupo</label><br>
+      <input name="contrato" type="radio">
+      <label>Risco de Engenharia</label><br>
+      <input name="contrato" type="radio">
+      <label>Responsabilidade Civil</label><br>
+      <br>
+      <input type="checkbox">
+      <label> Eu concordo em receber comunicações.</label><br><br>
+      Ao informar meus dados, eu concordo com a Política de Privacidade e com os Termos de Uso.<br><br>
+      <br>
+
+    </div>
+    <a href="#" class="btn btn-success">Submeter</a>
+  </div>
+  <br>
+  <br>
+  <button onclick="scrollToTop()" id="bot"">
+    Para o topo⏫
+  </button>
+  <br>
+
+
+</body>
+
+</html>

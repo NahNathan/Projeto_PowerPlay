@@ -1,0 +1,91 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.test
+{
+  background-color:#FFFF;
+}
+
+.GrantoButton {
+  font-size:15px;
+  font-family:Arial;
+  width:140px;
+  height:35px;
+  border-width:1px;
+  color:#fff;
+  border-color:rgba(24, 171, 41, 0);
+  border-radius: 28px;
+  text-shadow: 1px 1px 0px rgba(47, 102, 39, 0.01);
+  background:rgba(12, 210, 173, 1);
+  transition: all 0.7s;
+}
+
+.GrantoButton:hover {
+  background: rgba(52, 216, 185, 1);
+  box-shadow: 1px 1px 20px rgba(12, 210, 173, 1);
+}
+
+.serv{
+  display: inline-flex;
+  margin: 10px;
+  padding: 10px;
+}
+
+#pag{
+  margin-top:10em;
+  padding:3em;
+  background:#4f0372;
+}
+
+#formu{
+  margin-bottom: 10px;
+  padding: 10px;
+  background:rgba(12, 210, 173, 1);
+  margin: auto;
+  color: #333333;
+  text-align: center;
+  box-shadow: black 3px 3px 3px;
+  border-radius: 25px;
+  
+}
+
+#conta{
+  margin-bottom: 1em;
+  background-color: #808080;
+  margin: auto;
+  text-align: center;
+}
+
+#titulo{
+  margin: 15px;
+  font-size: 125%;
+  color: rgba(12, 210, 173, 1);
+  font-weight: bold;
+}
+
+#bot{
+  border-radius:10px;
+  font-weight:bold;
+  margin: 10px;
+  transition: all 0.7s;
+}
+
+#bot:hover{
+    box-shadow: 1px 1px 30px rgba(12, 210, 173, 1);
+}
+
+#bnt :hover{
+  box-shadow: 1px 1px 30px rgba(12, 210, 173, 1);
+}
+
+.accord
+{
+  background-color: #333333;
+  color: #FFFF;
+}
+
+@media screen and (max width: 500px){
+
+}
