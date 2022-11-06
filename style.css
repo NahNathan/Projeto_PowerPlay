@@ -1,3 +1,6 @@
+.container-fluid{
+  background-color:lightgrey;
+}
 html, body {
   height: 100%;
   width: 100%;
@@ -86,6 +89,37 @@ html, body {
   color: #FFFF;
 }
 
-@media screen and (max width: 500px){
+#registro{
+  color:#333333;
+  
+}
 
+#container{
+  margin-bottom: 10px;
+  padding: 10px;
+  
+  margin: auto;
+  color: #333333;
+  text-align: center;
+  box-shadow: black 3px 3px 3px;
+  
+}
+
+#prod{
+  margin: 10px;
+  padding: 10px;
+  margin: auto;
+  color: #333333;
+  
+  
+  border-radius: 20px;
+}
+.textinho{
+  width: 60%;
+  text-align: center;
+  margin: 30px;
+}
+.img_produtos{
+  margin-left: 80px;
+  display: inline-flex;
 }
